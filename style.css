@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:' Poppins', sans-serif ;
+}
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100VH;
+     background: #675afE;
+}
+.wrapper{
+    width: 370PX;
+    padding: 30px;
+    border-radius: 7px;
+    background: #fff;
+  
+}
+.wrapper header{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.wrapper form{
+    margin: 40px 0 20px 0;
+}
+form :where(input, select,button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+form input{
+    border: 1px solid #999;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 17px;
+}
+form input:focus{
+    border: 2px solid #675afE;
+    padding: 0 14px;
+}
+form .drop-list{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop-list .select-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 115px;
+    border-radius: 5px;
+    border:1px solid #999;
+}
+.select-box select{
+   width: auto;
+   font-size: 16px;
+   margin: 0 -5px 0 5px;
+}
+.select-box select::-webkit-scrollbar{
+    width: 8px;
+}
+.select-box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
+.select-box img{
+    max-width: 25px;
+}
+.drop-list .icon{
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 22px;
+}
+form .exchange-rate{
+    font-size: 17px;
+    margin: 20px 0 30px;
+}
+form button{
+    height: 52px;
+    color: #fff;
+    background: #675afE;
+    cursor: pointer;
+    font-size: 17px;
+}
